@@ -11,3 +11,7 @@ def test_valid():
 
 def test_valid2():
     pass
+
+
+def test_valid3():
+    pass
