@@ -7,3 +7,7 @@ def test_equal():
 
 def test_valid():
     pass
+
+
+def test_valid2():
+    pass
