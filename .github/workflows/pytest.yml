@@ -32,3 +32,6 @@ jobs:
       - name: Run test suite
         run: |
           pipenv run test -v
+      - name: Run funcs
+        run: |
+          pipenv run func_test
