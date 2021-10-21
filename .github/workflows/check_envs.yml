@@ -14,7 +14,8 @@ on:
   workflow_dispatch:
 
 env:
-  some_data: 'Tut shosi e'
+  SOME_DATA: 'Tut shosi e'
+  KEYS: ${{ secrets.BES_SECRET }}
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -39,4 +40,5 @@ jobs:
           import os
           print(os.environ)
           print(os.getenv("SOME_DATA"))
+          print(os.getenv("KEYS"))
         shell: python
