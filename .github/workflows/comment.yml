@@ -24,4 +24,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, ${{ github.event.comment }}, ${{ github.event.comment }}, ${{ github.event.comment.body }}
+        run: echo Hello, ${{ github.event }}, ${{ github.event.comment }}, ${{ github.event.comment.body }}
